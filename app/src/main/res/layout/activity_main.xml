@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/parent_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <EditText
+            android:id="@+id/edittext_numberplate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:padding="16dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/numberplate_input_placeholder"
+            android:text=""
+            />
+
+        <Button
+            android:id="@+id/button_find_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="100dp"
+            android:paddingEnd="100dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:text="@string/numberplate_button_submit"
+            android:background="@drawable/button_result"
+            />
+
+        <TextView
+            android:id="@+id/textview_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

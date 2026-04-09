@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">TaxiBedrijf</string>
+
+    <string name="app_name">On the Road garage</string>
+    <string name="numberplate_input_placeholder">Voer kenteken in (bijv. 01-GBB-1)</string>
+    <string name="numberplate_button_submit">Zoeken</string>
+
+
 </resources>
