@@ -40,14 +40,6 @@
             android:background="@drawable/button_result"
             />
 
-        <TextView
-            android:id="@+id/textview_result"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="visible"
-            />
-
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
