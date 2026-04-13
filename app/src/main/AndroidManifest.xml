@@ -13,12 +13,6 @@
         android:theme="@style/Theme.TaxiBedrijf">
 
         <activity
-            android:name=".CarDetailsActivity"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light"
-            />
-
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light">
