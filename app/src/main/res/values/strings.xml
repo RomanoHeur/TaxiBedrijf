@@ -1,9 +1,15 @@
 <resources>
 
     <string name="app_name">On the Road garage</string>
+
+    <!-- Card strings -->
+    <string name="card_title">Voertuig opzoeken</string>
+    <string name="card_subtitle">Zoek op kenteken of bekijk het totaaloverzicht</string>
+
     <string name="numberplate_input_placeholder">Voer kenteken in (bijv. 01-GBB-1)</string>
     <string name="numberplate_button_submit">Zoeken</string>
     <string name="number_plate_result">%1$s</string>
+    <string name="total_view_button">Totaal overzicht</string>
 
 
 </resources>
