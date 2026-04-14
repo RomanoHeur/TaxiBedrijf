@@ -15,6 +15,12 @@
         android:theme="@style/Theme.TaxiBedrijf">
 
         <activity
+            android:name=".ui.CarDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+        <activity
             android:name=".ui.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light">

@@ -1,5 +1,6 @@
 package nl.ad.taxibedrijf.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
@@ -76,8 +77,18 @@ class MainActivity : AppCompatActivity() {
                 )
 
                 // Stelt de adapter in op de Listview en wordt ook weergegeven.
-                findViewById<ListView>(R.id.listview_cars).adapter = arrayAdapter
-                findViewById<ListView>(R.id.listview_cars).visibility = ListView.VISIBLE
+                val listView = findViewById<ListView>(R.id.listview_cars)
+                listView.adapter = arrayAdapter
+                listView.visibility = ListView.VISIBLE
+
+                listView.setOnItemClickListener { _, _, position, _ ->
+
+                    val intent = Intent(this.applicationContext, CarDetailsActivity::class.java)
+                    intent.putExtra("car", carList[position])
+
+                    startActivity(intent)
+
+                }
             },
             { error -> println(error)}
         )

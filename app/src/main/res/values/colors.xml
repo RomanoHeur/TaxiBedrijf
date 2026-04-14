@@ -4,5 +4,6 @@
     <color name="primary_color">#1975d2</color>
     <color name="secondary_color">#a0c7f1</color>
     <color name="light_gray">#ebedf0</color>
+    <color name="dark_gray">#A1A1A1</color>
 
 </resources>

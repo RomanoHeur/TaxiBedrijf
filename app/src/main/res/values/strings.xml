@@ -6,10 +6,30 @@
     <string name="card_title">Voertuig opzoeken</string>
     <string name="card_subtitle">Zoek op kenteken of bekijk het totaaloverzicht</string>
 
+    <!-- Homepagina String -->
     <string name="numberplate_input_placeholder">Voer kenteken in (bijv. 01-GBB-1)</string>
     <string name="numberplate_button_submit">Zoeken</string>
     <string name="number_plate_result">%1$s</string>
     <string name="total_view_button">Totaal overzicht</string>
 
+    <!-- Cardetails Strings -->
+    <string name="car_details_wrapper_title">VOERTUIGGEGEVENS</string>
+    <string name="car_details_numberplate_result">{KENTEKEN PLACEHOLDER}</string>
+    <string name="car_details_vehicle_type_result_wrapper">%1$s · %2$s</string>
+
+    <string name="car_details_vehicle_brand_title">Merk</string>
+    <string name="car_details_vehicle_brand_result">%1$s</string>
+
+    <string name="car_details_vehicle_type_title">Type</string>
+    <string name="car_details_vehicle_type_result">%1$s</string>
+
+    <string name="car_details_vehicle_first_color_title">Eerste Kleur</string>
+    <string name="car_details_vehicle_first_color_result">%1$s</string>
+
+    <string name="car_details_vehicle_total_cylinders_title">Totale Cilinders</string>
+    <string name="car_details_vehicle_total_cylinders_result">%1$d</string>
+
+    <string name="car_details_vehicle_cylinder_content_title">Cilinderinhoud</string>
+    <string name="car_details_vehicle_cylinder_content_result">%1$d cc</string>
 
 </resources>
