@@ -17,6 +17,9 @@
     <string name="car_details_numberplate_result">{KENTEKEN PLACEHOLDER}</string>
     <string name="car_details_vehicle_type_result_wrapper">%1$s · %2$s</string>
 
+    <string name="car_details_no_vehicle_selected_title">Nog geen voertuig geselecteerd</string>
+    <string name="car_details_no_vehicle_selected_subtitle">Selecteer een voertuig om de gegevens te kunnen zien</string>
+
     <string name="car_details_vehicle_brand_title">Merk</string>
     <string name="car_details_vehicle_brand_result">%1$s</string>
 

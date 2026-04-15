@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_menu_home_overview"
+        android:icon="@drawable/icons8_home"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/navigation_menu_car_details_overview"
+        android:icon="@drawable/icons8_car_24"
+        android:title="Details"
+        />
+
+</menu>
